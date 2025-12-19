@@ -9,7 +9,7 @@ test('Create Message Box Task Bot', async ({ page }) => {
   const taskBot = new TaskBotPage(page);
 
   await login.goto();
-  await login.login('ektagoyal6904@gmail.com', 'Ekta#694');
+  await login.login('Your_email', 'Your_password');
 
   await dashboard.goToAutomation();
   await dashboard.clickCreateBot();
@@ -17,3 +17,4 @@ test('Create Message Box Task Bot', async ({ page }) => {
 
   await taskBot.createTaskBot('MessageBoxBot');
 });
+
