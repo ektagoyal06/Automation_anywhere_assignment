@@ -27,15 +27,21 @@ assignment/
 │
 ├── pages/                    
 │   ├── LoginPage.js
+|
 │   ├── DashboardPage.js
+|
 │   └── TaskBotPage.js
+|
 |   |__ FormPage.js
 │
 |
 ├── tests/                    
-│   ├── messageBoxTask.spec.js    
-│   ├── formUpload.spec.js          
-│   └── apiUsecase.spec.js        
+│   ├── messageBoxTask.spec.js 
+|
+│   ├── formUpload.spec.js      
+|
+│   └── apiUsecase.spec.js   
+|
 |   |__ saveSession.spec.js
 │
 |
