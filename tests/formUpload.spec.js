@@ -9,7 +9,7 @@ test('Create Form and Upload File', async ({ page }) => {
   const form = new FormPage(page);
 
   await login.goto();
-  await login.login('ektagoyal6904@gmail.com', 'Ekta#694');
+  await login.login('Your_email', 'Your_password');
 
   await dashboard.goToAutomation();
   await dashboard.clickCreateBot();
@@ -23,3 +23,4 @@ test('Create Form and Upload File', async ({ page }) => {
 
   await form.saveForm();
 });
+
