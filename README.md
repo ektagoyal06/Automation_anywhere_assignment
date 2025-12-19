@@ -1,4 +1,5 @@
 Automation Assignment – UI & API Testing
+
 Automated testing suite for Automation Anywhere Community Edition using Playwright with Page Object Model design patter
 
 Project Overview
